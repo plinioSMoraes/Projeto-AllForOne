@@ -1,0 +1,1 @@
+SELECT supplier_id from northwind.purchase_orders WHERE supplier_id > 0 && supplier_id < 4

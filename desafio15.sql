@@ -1,0 +1,1 @@
+select CAST(SUBSTRING(submitted_date, 12, 2) AS UNSIGNED) AS submitted_hour from northwind.purchase_orders
